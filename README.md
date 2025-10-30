@@ -15,7 +15,7 @@ Script ini bekerja secara otomatis untuk menyalin file dari sumber ke tujuan set
 - Dapat berjalan terus hingga dihentikan secara manual (`kill` atau `Ctrl + C`)
 - Opsi tambahan: otomatis mengunduh file jika sumber hilang (melalui URL)
 
-## ⚙️ Cara Kompilasi
+## ⚙️ Compile
 ```bash
 gcc -O2 -Wall -o restore restore.c
 chmod +x restore
