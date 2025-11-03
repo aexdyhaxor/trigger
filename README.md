@@ -17,6 +17,7 @@ Script ini bekerja secara otomatis untuk menyalin file dari sumber ke tujuan set
 
 ## ⚙️ Compile
 ```bash
-gcc -O2 -Wall -o trigger trigger.c
+gcc -O2 -Wall -o trigger trigger.c >> C99
+gcc -O2 -Wall -std=c99 -o lol lol.c >> C 89/90
 chmod +x restore
 nohup ./restore > ./restore.log 2>&1 &
