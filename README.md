@@ -21,3 +21,6 @@ gcc -O2 -Wall -o trigger trigger.c >> C99
 gcc -O2 -Wall -std=c99 -o lol lol.c >> C 89/90
 chmod +x restore
 nohup ./restore > ./restore.log 2>&1 &
+
+python
+nohup /usr/bin/python3 /tmp/restore.py >/tmp/smokykontol.log 2>&1 &
